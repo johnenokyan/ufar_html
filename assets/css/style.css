@@ -690,8 +690,8 @@ button {
 						
 								.works-as-submenu li:nth-child(n) a {
 									padding-left: 0;
-									max-width: 90px;
-									min-width: 90px;
+									/*max-width: 90px;
+									min-width: 90px; comment for a while */
 									line-height: 17px;
 								}
 
@@ -1927,6 +1927,7 @@ button {
 	
 		.submenu-with-icons ul li.active,
 		.submenu-with-icons ul li:hover,
+		.submenu-with-icons ul li.active:before,
 		.submenu-with-icons ul li:hover:before {
 			opacity:1;
 		}
