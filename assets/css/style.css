@@ -247,6 +247,10 @@ em {
 	color: #000;
 }
 
+.has-shadow {
+	box-shadow: 0 0 4px 4px rgba(0, 0, 0,  .03);
+}
+
 .ufar-btn:hover,
 .top-lang a:hover,
 .top-navigation .top-search:hover,
@@ -351,6 +355,10 @@ em {
 
 .padding-15 {
 	padding:15px;
+}
+
+.padding-25 {
+	padding:25px;
 }
 
 .padding-30 {
@@ -501,6 +509,7 @@ button {
 			background-repeat: no-repeat;
 			box-shadow: 0 4px 20px rgb(0, 0, 0, .25);
 			transition:background-color .5s;
+			z-index: 2;
 		}
 		
 		.nav.no-shadow {
@@ -2202,9 +2211,9 @@ button {
 		height:370px;
 	}
 	
-		.contact-to-ufar-content {
+		/*.contact-to-ufar-content {
 			padding-left: 90px;
-		}
+		} comment for a while */
 		
 	.contact-to-ufar:before {
 		left: 26%;
