@@ -459,6 +459,10 @@ em {
 	line-height:22px;
 }
 
+.lh-25 {
+	line-height:25px;
+}
+
 .ufar-btn {
 	transition:all .5s;
 }
@@ -2088,6 +2092,7 @@ button {
 				height:82px;
 				padding:10px;
 				resize:none;
+				border:1px rgba(33, 33, 83, .4) solid;
 			}
 			
 			.online-application select {
@@ -2146,6 +2151,58 @@ button {
 			.faq-form .ufar-btn {
 				height:60px;
 			}
+			
+	.history-intro-left {
+		width: 40%;
+	}
+	
+	.history-intro-left:before {
+		content:url("../images/about/history/about-history-title-sign-large.svg");
+		position:absolute;
+		left:300px;
+		top:0;
+		z-index: -1;
+	}
+			
+		.history-intro-title {
+			font-size:80px;
+			line-height:70px;
+		}
+		
+		.history-intro-left .swiper-slide li {
+			min-height:initial;
+		}
+		
+			.history-intro-left .swiper-slide img {
+				max-height:168px;
+			}
+		
+		.history-intro-left .ufar-swiper-arrows {
+			justify-content: end;
+		}
+		
+	.history-chronology {
+		overflow-x: auto;
+	}
+	
+		.history-chronology li {
+			min-width:180px;
+			border-top:1px #ED2939 solid;
+		}
+		
+			.history-chronology-point {
+				width:20px;
+				height:20px;
+				top:-10px;
+			}
+			
+			.history-chronology-item {
+				white-space: normal;
+			}
+			
+				.history-chronology-item img {
+					max-height:170px;
+				}
 			
 	footer .container {
 		background-image:url("../images/footer-bg.svg");
@@ -3099,6 +3156,26 @@ button {
 					padding-left: 30px;
 					padding-right: 30px;
 				}
+				
+	.history-intro-left:before {
+		content:url("../images/about/history/about-history-title-sign-small.svg");
+		left: auto;
+		right: 0;
+		top: -30px;
+	}
+				
+	.history-intro-title {
+		font-size: 48px;
+		line-height: 44px;
+	}
+	
+		.history-intro-left #two-per-one-slider {
+			padding-top: 10px;
+		}
+	
+		.history-intro-left .is-cols-template li {
+			padding-left:0;
+		}
 		
 		.widgets {
 			margin-top: 0;
@@ -3457,6 +3534,18 @@ button {
 	.faq-form-end {
 		margin-left:0;
 	}
+	
+	.history-intro {
+		padding-bottom:0;
+	}
+		
+		.history-intro-left {
+			width:100%;
+		}
+		
+			.history-intro-left #two-per-one-slider .swiper-container {
+				margin-bottom: 0;
+			}
 }
 
 @media screen and (max-width:414px) {
