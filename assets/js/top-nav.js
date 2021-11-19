@@ -16,12 +16,12 @@ $(document).ready(function() {
 				$(".nav .logo").stop(true).stop(true).animate({'top': fsLvlSubmenuHeight / 2});
 			}
 			
-			$(".works-as-submenu").hide();
+			$(".nav .works-as-submenu").hide();
 		}).mouseleave(function(){
 			$(".nav").removeClass("nav-opened");
 			$(".nav").stop(true).delay(100).animate({'height': navInitHeight});
 			$(".nav .logo").stop(true).delay(100).animate({'top': 0});
-			$(".works-as-submenu").show();
+			$(".nav .works-as-submenu").show();
 		})
 	}
 	

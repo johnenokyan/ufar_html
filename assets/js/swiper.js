@@ -67,8 +67,34 @@ $(document).ready(function() {
 		var slider = new Swiper($(v), {
 			direction: 'horizontal',
 			slidesPerView: 4,
-			autoplay:false,
+			autoplay:true,
+			autoplay:2000,
 			spaceBetween: 15,
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+			breakpoints: {
+				424: {
+					slidesPerView: 1,
+				},
+				667: {
+					slidesPerView: 2,
+				},
+				1024: {
+					slidesPerView: 3,
+				}
+			}
+		});
+		
+		sviperSliderList[i] = slider;
+	})
+	
+	$.each($('.internship-partners .tabcontent .swiper-container'), function(i,v) {
+		var slider = new Swiper($(v), {
+			direction: 'horizontal',
+			slidesPerView: 6,
+			autoplay:true,
+			autoplay:2000,
+			spaceBetween: 20,
 			nextButton: '.swiper-button-next',
 			prevButton: '.swiper-button-prev',
 			breakpoints: {
