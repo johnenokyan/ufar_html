@@ -410,6 +410,11 @@ em {
 	margin-bottom:0 !important;
 }
 
+.no-margin-hor {
+	margin-left:0 !important;
+	margin-right:0 !important;
+}
+
 .no-border {
 	border:0 !important;
 }
@@ -1226,6 +1231,10 @@ button {
 							line-height: 20px;
 						}
 						
+						#one-per-one-slider.larger-tablist-slider .tabcontent .swiper-slide .lh-25 p {
+							line-height: 25px;
+						}
+						
 						#one-per-one-slider.larger-tablist-slider .tabcontent .swiper-slide .semibold-text,
 						#one-per-one-slider.larger-tablist-slider .tabcontent .swiper-slide .bold-text {
 							padding-top:20px;
@@ -1476,6 +1485,10 @@ button {
 									line-height: 115px;
 									text-indent: -8px;
 								}
+								
+								.is-cols-template .ufar-event-date .ufar-event-day {
+									letter-spacing:-15px;
+								}
 						
 							.ufar-event-location {
 								text-align: right;
@@ -1622,6 +1635,10 @@ button {
 			border: 1px rgba(219, 0, 17, .15) solid;
 		}
 		
+		#two-per-one-slider .is-cols-template li.blue-border {
+			border: 1px rgba(0, 35, 149, .15) solid;
+		}
+		
 			.is-cols-template li .ufar-event-date {
 				font-family: 'Montserrat', sans-serif;
 			}
@@ -1763,6 +1780,10 @@ button {
 				max-width:60px;
 				height:60px;
 			}
+			
+				.is-cols-template li .ufar-btn img {
+					height:auto;
+				}
 			
 			.is-cols-template.with-red-border li .ufar-btn,
 			.is-cols-template.programs-masters li .ufar-btn,
@@ -2333,6 +2354,10 @@ button {
 		width:330px;
 		height:330px;
 	}
+
+	.success-stories-text .media-placeholder-content li {
+		border-left-color:#ED2939;
+	}
 	
 	footer .container {
 		background-image:url("../images/footer-bg.svg");
@@ -2505,6 +2530,10 @@ button {
 @media screen and (max-width:1024px) {
 	.hide-on-mobile {
 		display:none;
+	}
+	
+	.full-width-on-mobile {
+		width:100%;
 	}
 	
 	.nav,
@@ -3313,6 +3342,18 @@ button {
 	
 		.history-intro-left .is-cols-template li {
 			padding-left:0;
+		}
+		
+	.success-stories .is-cols-template {
+		margin-left: 0;
+		margin-right: 0;
+		padding-top: 0;
+	}
+		
+		.success-stories .is-cols-template li {
+			padding-left: 0;
+			padding-right: 0;
+			margin-bottom: 0;
 		}
 		
 		.widgets {
