@@ -289,6 +289,10 @@ em {
 	border: 1px #ED2939 solid;
 }
 
+.border-blue {
+	border: 1px #002395 solid;
+}
+
 .pt-100 {
 	padding-top:100px;
 }
@@ -421,6 +425,10 @@ em {
 
 .no-border {
 	border:0 !important;
+}
+
+.no-bg {
+	background-image:none !important;
 }
 
 .mt-50 {
@@ -1676,7 +1684,8 @@ button {
 			background:url("../images/three-cols-template-col-bg.svg");
 		}
 		
-		.is-cols-template .has-bg.blue-border:after {
+		.is-cols-template .has-bg.blue-border:after,
+		.is-cols-template .has-bg.border-blue:after {
 			left:0;
 			right:auto;
 			background:url("../images/three-cols-template-col-bg-2.svg");
@@ -2088,6 +2097,10 @@ button {
 			height:60px;
 			right: 0;
 			bottom: 0;
+		}
+		
+		.news-selected-content .online-application .ufar-btn {
+			width:100%;
 		}
 		
 	.submenu-with-icons ul {
@@ -3453,6 +3466,11 @@ button {
 		.tabcontent .swiper-container {
 			padding-left: 30px !important;
 			padding-right: 30px;
+		}
+		
+		.tabcontent .swiper-container.no-padding {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
 		}
 		
 		.ufar-about .tabcontent2 {
