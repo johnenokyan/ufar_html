@@ -199,6 +199,10 @@ em {
 	font-size:42px;
 }
 
+.fs-44 {
+	font-size:44px;
+}
+
 .fs-48 {
 	font-size:48px;
 }
@@ -938,7 +942,7 @@ button {
 			
 		.short-header-title {
 			bottom:0;
-			height: 71px;
+			min-height: 71px;
 		}
 						
 		/*.wrapper .ufar-slider-container {
@@ -993,7 +997,7 @@ button {
 				opacity:.1;
 			}
 
-			.ufar-slider-container .tabitem.active:after {
+			.tablist .tabitem.active:after {
 				content:"";
 				position:absolute;
 				width:8px;
@@ -3164,9 +3168,9 @@ button {
 				font-size:26px;
 			}
 			
-			.did-you-know .tabcontent .swiper-container {
+			/*.did-you-know .tabcontent .swiper-container {
 				background: #f6f6f6;
-			}
+			} comment for a while */
 			
 				.did-you-know .tabcontent .swiper-slide .media-placeholder {
 					min-height: initial;
@@ -3185,6 +3189,12 @@ button {
 			margin-right: -30px;
 			padding-top: 48px;
 			padding-bottom: 0;
+		}
+		
+		.inner-page .online-application .ufar-about {
+			margin-left: 0;
+			margin-right: 0;
+			margin-bottom: 20px;
 		}
 		
 			.inner-page .ufar-about .col-img-placeholder .ufar-logo {
@@ -3420,7 +3430,7 @@ button {
 				}
 }
 
-@media screen and (max-width:667px) {	
+@media screen and (max-width:667px) {
 	.flex-col-on-mobile {
 		flex-direction: column;
 	}
@@ -3429,12 +3439,21 @@ button {
 		font-size:42px;
 	}
 	
+	.fs-37-on-mobile {
+		font-size:37px;
+	}
+	
 	.fs-28-on-mobile {
 		font-size:28px;
 	}
 	
 	.fs-21-on-mobile {
 		font-size:21px;
+	}
+	
+	.fs-16-on-mobile {
+		font-size:16px;
+		line-height: normal;
 	}
 	
 	.header {
@@ -3481,7 +3500,7 @@ button {
 				white-space: nowrap;
 			}
 		
-			.ufar-slider-container .tabitem.active:after {
+			.tablist .tabitem.active:after {
 				top: 0;
 			}
 			
@@ -3508,10 +3527,10 @@ button {
 					padding-bottom: 20px;
 				}
 				
-					.two-per-one-slider .swiper-slide img {
+					/*.two-per-one-slider .swiper-slide img {
 						max-width: 100px;
 						min-height: 100px;
-					}
+					} comment for a while */
 					
 					.two-per-one-slider .swiper-slide p {
 						position:relative;
@@ -3820,6 +3839,21 @@ button {
 	.static-quote-overtext .fs-50 {
 		font-size:25px;
 	}
+	
+	.online-application-form .oa-direct-login {
+		margin-right: 0;
+	}
+	
+	.online-application-form .oa-indirect-login {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	
+		.online-application-form label.mr-10 {
+			margin-right: 0;
+		}
+	
+	
 }
 
 @media screen and (max-width:414px) {
