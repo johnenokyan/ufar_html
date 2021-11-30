@@ -3086,7 +3086,7 @@ button {
 			.ufar-calendar {
 				order: -1;
 				height: 500px;
-				padding:36px 30px 70px;
+				padding:36px 30px 30px;
 				border-bottom: 1px #e5e9f4 solid;
 			}
 			
@@ -3445,6 +3445,14 @@ button {
 	
 	.fs-28-on-mobile {
 		font-size:28px;
+	}
+	
+	.fs-26-on-mobile {
+		font-size:26px;
+	}
+	
+	.fs-24-on-mobile {
+		font-size:24px;
 	}
 	
 	.fs-21-on-mobile {
