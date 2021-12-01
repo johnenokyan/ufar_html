@@ -345,6 +345,10 @@ em {
 	padding-left:25px;
 }
 
+.pt-20 {
+	padding-top:20px;
+}
+
 .pb-15 {
 	padding-bottom:15px;
 }
@@ -771,6 +775,10 @@ button {
 							content:url("../images/submenu-title-icon.svg");
 							vertical-align: middle;
 							margin-right: 10px;
+						}
+						
+						.works-as-submenu li:empty:before {
+							content:none;
 						}
 						
 						.main .works-as-submenu li:first-child:before {
@@ -3348,9 +3356,9 @@ button {
 						max-width: none;
 					}
 					
-						.news-selected-title h3 {
+						/*.news-selected-title h3 {
 							font-size:18px;
-						}
+						}*/
 						
 				.news-selected-content {
 					padding-top: 30px;
@@ -3431,6 +3439,10 @@ button {
 }
 
 @media screen and (max-width:667px) {
+	.hide-on-mobile-lower-res {
+		display:none;
+	}
+	
 	.flex-col-on-mobile {
 		flex-direction: column;
 	}
@@ -3451,12 +3463,24 @@ button {
 		font-size:26px;
 	}
 	
+	.fs-25-on-mobile {
+		font-size:25px;
+	}
+	
 	.fs-24-on-mobile {
 		font-size:24px;
 	}
 	
 	.fs-21-on-mobile {
 		font-size:21px;
+	}
+	
+	.fs-19-on-mobile {
+		font-size:19px;
+	}
+	
+	.fs-18-on-mobile {
+		font-size:18px;
 	}
 	
 	.fs-16-on-mobile {
@@ -3844,9 +3868,9 @@ button {
 		height:300px;
 	}
 
-	.static-quote-overtext .fs-50 {
+	/*.static-quote-overtext .fs-50 {
 		font-size:25px;
-	}
+	}*/
 	
 	.online-application-form .oa-direct-login {
 		margin-right: 0;
@@ -3856,12 +3880,6 @@ button {
 		margin-left: 0;
 		margin-top: 20px;
 	}
-	
-		.online-application-form label.mr-10 {
-			margin-right: 0;
-		}
-	
-	
 }
 
 @media screen and (max-width:414px) {
