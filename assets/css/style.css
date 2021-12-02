@@ -3574,7 +3574,8 @@ button {
 						position:absolute;
 						width:57px;
 						height:63px;
-						background-image:url("../images/quote-icon.svg");
+						/*background-image:url("../images/quote-icon.svg");*/
+						background-image:none;
 					}
 					
 					.two-per-one-slider .swiper-slide p:before {
@@ -3768,6 +3769,7 @@ button {
 			padding-top: 75px;
 			padding-bottom: 75px;
 			background-size: 90%;
+			background-image:none;
 		}
 		
 			.static-quote-text p {
