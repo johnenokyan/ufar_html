@@ -728,18 +728,18 @@ button {
 						padding-left:32px;
 					}
 
-				.top-navigation .search-form {
+				.search-form {
 					max-width:650px;
 					width:100%;
 					border-bottom:1px #002395 solid;
 				}
 				
-					.top-navigation .search-form input {
+					.search-form input {
 						text-align:right;
 						letter-spacing:1px;
 					}
 					
-					.top-navigation .search-form input::placeholder {
+					.search-form input::placeholder {
 						color:#002395;
 					}
 					
@@ -2400,6 +2400,36 @@ button {
 		background-repeat: no-repeat;
 		background-position: bottom left;
 	}
+	
+	.main .search-form {
+		margin-left: auto;
+	}
+	
+	.search-form-tabs ul {
+		border-bottom:1px #002395 solid;
+		overflow-x: auto;
+	}
+	
+		.search-form-tabs ul a {
+			display:flex;
+			padding:10px 20px;
+			color:#002395;
+		}
+		
+		.search-form-tabs ul li:hover a,
+		.search-form-tabs ul li.active a {
+			background:#002395;
+			color:#fff;
+		}
+		
+		.search-form-tabs ul li:first-child a {
+			border-left:1px #002395 solid;
+		}
+		
+		.search-form-tabs ul li:not(.active) a {
+			border-top:1px #002395 solid;
+			border-right:1px #002395 solid;
+		}
 			
 		.widgets .ufar-logo {
 			max-width:162px;
@@ -3397,6 +3427,10 @@ button {
 			padding-right: 0;
 			margin-bottom: 0;
 		}
+		
+	.search-form-tabs {
+		margin-bottom:50px;
+	}
 		
 		.widgets {
 			margin-top: 0;
