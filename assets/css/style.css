@@ -2164,6 +2164,10 @@ button {
 			height:100%;
 		}
 		
+		.static-quote-img img.height-400 {
+			height:400px;
+		}
+		
 		.static-quote-img .ufar-btn {
 			width: 200px;
 			height: 100px;
